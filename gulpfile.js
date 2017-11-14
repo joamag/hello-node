@@ -44,7 +44,7 @@ gulp.task("move-ext", ["compile-ext"], () => {
 gulp.task("compress", ["move-ext"], () => {
     return gulp.src(paths.dist)
         .pipe(zip("dist.zip"))
-        .pipe(gulp.dest("./"));
+        .pipe(gulp.dest("build"));
 });
 
 gulp.task("mark", () => {
