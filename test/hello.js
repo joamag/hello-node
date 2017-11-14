@@ -1,5 +1,5 @@
 const assert = require("assert");
-const hello = require("../dist/hello");
+const hello = require("../lib");
 
 describe("hello", function() {
     describe("#hello", function() {
