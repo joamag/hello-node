@@ -10,8 +10,8 @@ var paths = {
 };
 
 gulp.task("compile-ext", () => {
-    return run('node-gyp config build').exec()
-        .pipe(gulp.dest('output'));
+    return run("node-gyp config build").exec()
+        .pipe(gulp.dest("output"));
 });
 
 gulp.task("move-ext", ["compile-ext"], () => {
@@ -21,8 +21,8 @@ gulp.task("move-ext", ["compile-ext"], () => {
 
 gulp.task("compress", ["move-ext"], () =>
     gulp.src(paths.dist)
-        .pipe(zip("dist.zip"))
-        .pipe(gulp.dest("./"))
+    .pipe(zip("dist.zip"))
+    .pipe(gulp.dest("./"))
 );
 
 gulp.task("test", ["move-ext"], () => {

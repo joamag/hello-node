@@ -2,7 +2,7 @@
     "name": "joamag-hello-node",
     "version": "0.1.0",
     "description": "Simple hello world example",
-    "main": "src/js/index.js",
+    "main": "dist/hello.node",
     "scripts": {
         "build": "gulp",
         "test": "gulp test"
@@ -24,6 +24,9 @@
         "url": "https://github.com/joamag/hello_node/issues"
     },
     "homepage": "https://github.com/joamag/hello_node#readme",
+    "files": [
+        "dist/hello.node"
+    ],
     "devDependencies": {
         "node-gyp": "^3.6.2",
         "mocha": "^4.0.1",
