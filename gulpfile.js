@@ -10,7 +10,7 @@ var paths = {
 };
 
 gulp.task("compile-ext", () => {
-    return run("node-gyp config build").exec()
+    return run("node-gyp configure build").exec()
         .pipe(gulp.dest("output"));
 });
 
