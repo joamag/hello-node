@@ -2,7 +2,7 @@
     "name": "joamag-hello-node",
     "version": "0.1.7",
     "description": "Simple hello world example",
-    "main": "dist/hello.node",
+    "main": "lib/index.js",
     "scripts": {
         "gulp": "gulp",
         "build": "gulp",
