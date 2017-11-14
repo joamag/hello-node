@@ -31,6 +31,7 @@
         "binding.gyp",
         "gulpfile.js",
         "lib/**/*.js",
+        "src/**/*.h",
         "src/**/*.cc",
         "test/**/*.js"
     ],
