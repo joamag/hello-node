@@ -1,6 +1,6 @@
 {
     "name": "joamag-hello-node",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "Simple hello world example",
     "main": "lib/index.js",
     "scripts": {
