@@ -5,4 +5,5 @@ package-lock.json
 
 /dist
 /build
+/output
 /node_modules
