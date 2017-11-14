@@ -1,2 +1,3 @@
-# hello_node
-Simple native node.js extension
+# Hello Node.js
+
+Simple native node.js extension.
