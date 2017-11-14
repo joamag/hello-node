@@ -12,7 +12,7 @@ deploy:
   provider: npm
   email: joamag@gmail.com
   api_key:
-    secure: LSb7O+cmwIoUQMeSx8S4tabyBPE74mXaqvhb+b+mcVaqIbUYA3AbV0PU4k+dgJBUIjnCDThxfSiZXZPFlcvbPJ32g6GfcOg3ke26OoNuiZ/ER4xtgpJkpSOSYnlIIMfA90O4QzWQ47u78qosLb7YRyQLQuc3KKJrLtl2EZ576Vo=
+    secure: qgMlvMg6C9mPCy6Z2A38igdz+kytsC3AHez9YShjHiPm88GoUzmfhjVQGUhESgoTOKw0/vRYR5+cbW2Q6vsyyuagjU18jWNpoeqY0G9afLZFm2U9Q1/9km3gBRFkxXE6X+DKXStaTovmSYC56fPkIQNes8KJIj/B6oIeKbGRZpLWBwxbA2lry2SUvsRNgpjUONbzPQotTnNkT21IKQTS6Ayco8ZCvh9+t5HwO2kb6LYEZzaB5ZnZ7cnV7jnpCaje02X5E/1J1WXA0N98Ps+u5No+ogqMAnpyswVihplPL5ezuYALQZVJOFBsD6iMWIdvnsQYAAN59uyVTt6zJKD4dDclMDwsRgXJ+DuESlOMPxPDKxZJsgcwuJW/OUrxT6mrSct9bUO+7PpRXtxyBpqVAowfMSvxqpPRUan2XOoPVfK0UV+N99+tv1x7b1R3CNREZWMO9/9eJ1NUzBJeHyWXMKDifFSuqfZlCH7aNx3hMn+flmSXtJhN52JTCk6vgG8/qnR8j+YmCj0KeP0/uUBmuXNy1hissHOVuHYjfOARPd60f65x/Yfkz5d4EFCJFQcgwKZaVSCPS3UXqTMg2w3tBbwVGo+H6bjgDCETCfJBBv6+peT2jct62TjRa+mDrwU1nR2gmxRRHlqhfDY5MEE8X2W9/R/6z2GA91FEEDUxRYU=
   on:
     tags: true
     node_js: "7"
