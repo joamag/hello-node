@@ -4,6 +4,7 @@
     "description": "Simple hello world example",
     "main": "dist/hello.node",
     "scripts": {
+        "gulp": "gulp",
         "build": "gulp",
         "test": "gulp test"
     },
