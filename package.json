@@ -31,13 +31,15 @@
         "src/hello.cc",
         "test/hello.js"
     ],
-    "devDependencies": {
+    "dependencies": {
         "node-gyp": "^3.6.2",
         "mocha": "^4.0.1",
         "gulp": "^3.9.1",
         "gulp-run": "^1.7.1",
         "gulp-zip": "^4.0.0",
-        "gulp-mocha": "^4.3.1",
+        "gulp-mocha": "^4.3.1"
+    },
+    "devDependencies": {
         "eslint": "^3.19",
         "eslint-config-standard": "^10.2.1",
         "eslint-plugin-import": "^2.7.0",
