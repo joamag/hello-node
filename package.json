@@ -30,9 +30,9 @@
     "files": [
         "binding.gyp",
         "gulpfile.js",
-        "lib/hello.js",
-        "src/hello.cc",
-        "test/hello.js"
+        "lib/**/*.js",
+        "src/**/*.cc",
+        "test/**/*.js"
     ],
     "devDependencies": {
         "node-gyp": "^3.6.2",
