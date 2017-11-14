@@ -25,7 +25,9 @@
     },
     "homepage": "https://github.com/joamag/hello_node#readme",
     "files": [
-        "dist/hello.node"
+        ".gulpfile.js",
+        "src/hello.cc",
+        "test/hello.js"
     ],
     "devDependencies": {
         "node-gyp": "^3.6.2",
