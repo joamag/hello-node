@@ -8,7 +8,7 @@ node_js:
 install:
   - npm install
 script: npm test
-before_deploy: npm run build
+before_deploy: npm run mark
 deploy:
   provider: npm
   email: joamag@gmail.com
