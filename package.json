@@ -26,8 +26,8 @@
     },
     "homepage": "https://github.com/joamag/hello_node#readme",
     "files": [
-        "gulpfile.js",
         "binding.gyp",
+        "gulpfile.js",
         "src/hello.cc",
         "test/hello.js"
     ],
