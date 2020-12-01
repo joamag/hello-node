@@ -8,7 +8,7 @@ const uglifyes = require("gulp-uglifyes");
 const replace = require("gulp-replace");
 const _package = require("./package.json");
 
-var paths = {
+const paths = {
     mainext: "build/Release/hello.node",
     scripts: "lib/**/*.js",
     test: "test/js/**/*.js",
@@ -36,20 +36,16 @@ gulp.task("compile-ext", () => {
         .pipe(gulp.dest("output"));
 });
 
-gulp.task("move-ext",
-    gulp.series("compile-ext", () => {
-        return gulp.src(paths.mainext)
-            .pipe(gulp.dest("dist"));
-    })
-);
+gulp.task("move-ext", ["compile-ext"], () => {
+    return gulp.src(paths.mainext)
+        .pipe(gulp.dest("dist"));
+});
 
-gulp.task("compress",
-    gulp.series("move-ext", () => {
-        return gulp.src(paths.dist)
-            .pipe(zip("dist.zip"))
-            .pipe(gulp.dest("build"));
-    })
-);
+gulp.task("compress", ["move-ext"], () => {
+    return gulp.src(paths.dist)
+        .pipe(zip("dist.zip"))
+        .pipe(gulp.dest("build"));
+});
 
 gulp.task("mark", () => {
     return gulp.src(paths.scripts)
@@ -64,4 +60,4 @@ gulp.task("test", () => {
         }));
 });
 
-gulp.task("default", gulp.series("build-js", "compile-ext", "move-ext", "compress"));
+gulp.task("default", ["build-js", "compile-ext", "move-ext", "compress"]);

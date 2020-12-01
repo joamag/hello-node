@@ -36,22 +36,22 @@
         "test/**/*.js"
     ],
     "devDependencies": {
-        "node-gyp": "^7.1.2",
-        "mocha": "^8.2.1",
-        "gulp": "^4.0.2",
+        "node-gyp": "^3.6.2",
+        "mocha": "^4.0.1",
+        "gulp": "^3.9.1",
         "gulp-run": "^1.7.1",
-        "gulp-zip": "^5.0.2",
-        "gulp-size": "^3.0.0",
-        "gulp-count": "^1.0.0",
-        "gulp-mocha": "^7.0.2",
-        "gulp-uglifyes": "^0.2.1",
-        "gulp-replace": "^1.0.0",
-        "eslint": "^7.14.0",
-        "eslint-config-standard": "^16.0.2",
-        "eslint-plugin-import": "^2.22.1",
-        "eslint-plugin-node": "^11.1.0",
-        "eslint-plugin-promise": "^4.2.1",
-        "eslint-plugin-standard": "^5.0.0",
-        "eslint-plugin-mocha": "^8.0.0"
+        "gulp-zip": "^4.0.0",
+        "gulp-size": "^2.1.0",
+        "gulp-count": "^0.3.0",
+        "gulp-mocha": "^4.3.1",
+        "gulp-uglifyes": "^0.1.2",
+        "gulp-replace": "^0.6.1",
+        "eslint": "^4.11.0",
+        "eslint-config-standard": "^10.2.1",
+        "eslint-plugin-import": "^2.8.0",
+        "eslint-plugin-node": "^5.2.1",
+        "eslint-plugin-promise": "^3.6.0",
+        "eslint-plugin-standard": "^3.0.1",
+        "eslint-plugin-mocha": "^4.11.0"
     }
 }
