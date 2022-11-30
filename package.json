@@ -12,7 +12,7 @@
     "gypfile": true,
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/joamag/hello_node.git"
+        "url": "git+https://github.com/joamag/hello-node.git"
     },
     "keywords": [
         "hello",
@@ -24,9 +24,9 @@
     },
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/joamag/hello_node/issues"
+        "url": "https://github.com/joamag/hello-node/issues"
     },
-    "homepage": "https://github.com/joamag/hello_node#readme",
+    "homepage": "https://github.com/joamag/hello-node#readme",
     "files": [
         "binding.gyp",
         "gulpfile.js",
