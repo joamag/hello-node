@@ -10,7 +10,7 @@ jobs:
     name: Build
     strategy:
       matrix:
-        node-version: [7, 8, 9, 10, 11, 12]
+        node-version: [7, 8, 9, 10, 11]
     runs-on: ubuntu-latest
     container: node:${{ matrix.node-version }}
     steps:
