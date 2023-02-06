@@ -1,6 +1,6 @@
 # Hello Node.js
 
-Simple native node.js extension for testing purposes.
+Simple native [Node.js](https://nodejs.org/) extension for testing purposes.
 
 ## License
 
