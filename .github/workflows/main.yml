@@ -12,10 +12,13 @@ jobs:
       matrix:
         node-version: [7, 8, 9, 10, 11]
     runs-on: ubuntu-latest
-    container: node:${{ matrix.node-version }}
     steps:
       - name: Checkout code from repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+      - name: Setup node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
       - name: Print Node.js information  
         run: node --version
       - name: Install package
