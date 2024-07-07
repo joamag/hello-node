@@ -39,13 +39,13 @@ gulp.task("compile-ext", () => {
 gulp.task("move-ext", gulp.series("compile-ext", () => {
     return gulp.src(paths.mainext)
         .pipe(gulp.dest("dist"));
-});
+}));
 
 gulp.task("compress", gulp.series("move-ext", () => {
     return gulp.src(paths.dist)
         .pipe(zip("dist.zip"))
         .pipe(gulp.dest("build"));
-});
+}));
 
 gulp.task("mark", () => {
     return gulp.src(paths.scripts)
