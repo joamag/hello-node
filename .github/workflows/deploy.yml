@@ -9,12 +9,12 @@ jobs:
     timeout-minutes: 10
     strategy:
       matrix:
-        node-version: [12-alpine]
+        node-version: [7]
     runs-on: ubuntu-latest
     container: node:${{ matrix.node-version }}
     steps:
       - name: Checkout code from repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
       - name: Print Node.js information  
         run: node --version
       - name: Install package
