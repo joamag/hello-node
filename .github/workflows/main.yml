@@ -10,12 +10,10 @@ jobs:
     name: Build
     strategy:
       matrix:
-        node-version: [7-alpine, 8-alpine, 9-alpine, 10-alpine, 11-alpine]
+        node-version: [12-alpine]
     runs-on: ubuntu-latest
     container: node:${{ matrix.node-version }}
     steps:
-      - name: Update packages
-        run: apk upgrade --update
       - name: Checkout code from repository
         uses: actions/checkout@v4
       - name: Print Node.js information  
