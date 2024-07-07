@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         node-version: [7]
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     container: node:${{ matrix.node-version }}
     steps:
       - name: Checkout code from repository
