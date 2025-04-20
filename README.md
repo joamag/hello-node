@@ -2,6 +2,23 @@
 
 Simple native [Node.js](https://nodejs.org/) extension for testing purposes.
 
+## Description
+
+This module is a simple native Node.js extension for testing purposes. It is a simple module that returns a string "world".
+
+Uses [Node-gyp](https://github.com/nodejs/node-gyp) to build the native module.
+
+## Usage
+
+```bash
+npm install joamag-hello-node
+```
+
+```js
+const hello = require("joamag-hello-node");
+console.log(hello.hello());
+```
+
 ## License
 
 Hello Node.js is currently licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/).
