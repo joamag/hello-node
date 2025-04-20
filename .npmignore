@@ -15,4 +15,4 @@ gulpfile.js
 /build
 /node_modules
 
-/build/Release/hello.node
+!/build/Release/hello.node
