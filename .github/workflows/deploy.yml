@@ -9,8 +9,8 @@ jobs:
     timeout-minutes: 10
     strategy:
       matrix:
-        node-version: [7]
-    runs-on: ubuntu-20.04
+        node-version: [16]
+    runs-on: ubuntu-latest
     container: node:${{ matrix.node-version }}
     steps:
       - name: Checkout code from repository

@@ -45,6 +45,6 @@
         "eslint-plugin-mocha": "^10.5.0"
     },
     "engines": {
-        "node": ">=18"
+        "node": ">=15"
     }
 }
