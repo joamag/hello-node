@@ -10,7 +10,7 @@ jobs:
     name: Build
     strategy:
       matrix:
-        node-version: [15, 16, 17]
+        node-version: [18, 19, 20]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code from repository
