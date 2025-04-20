@@ -5,7 +5,9 @@
     "main": "lib/index.js",
     "scripts": {
         "test": "mocha test/**/*.js",
-        "test:watch": "mocha test/**/*.js --watch"
+        "test:watch": "mocha test/**/*.js --watch",
+        "build": "node-gyp build",
+        "rebuild": "node-gyp rebuild"
     },
     "gypfile": true,
     "repository": {
@@ -26,9 +28,10 @@
     },
     "homepage": "https://github.com/joamag/hello-node#readme",
     "files": [
+        "lib/**/*.js",
+        "lib/**/*.d.ts",
         "binding.gyp",
         "gulpfile.js",
-        "lib/**/*.js",
         "src/**/*.h",
         "src/**/*.cc",
         "test/**/*.js"
@@ -46,5 +49,8 @@
     },
     "engines": {
         "node": ">=15"
+    },
+    "publishConfig": {
+        "access": "public"
     }
 }
