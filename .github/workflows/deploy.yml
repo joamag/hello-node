@@ -11,7 +11,6 @@ jobs:
       matrix:
         node-version: [16]
     runs-on: ubuntu-latest
-    container: node:${{ matrix.node-version }}
     steps:
       - name: Checkout code from repository
         uses: actions/checkout@v4
