@@ -46,7 +46,7 @@
         "gulp-mocha": "^10.0.1",
         "gulp-uglifyes": "^0.2.1",
         "gulp-replace": "^1.1.4",
-        "eslint": "^9.25.0",
+        "eslint": "^8.57.1",
         "eslint-config-standard": "^17.1.0",
         "eslint-plugin-import": "^2.31.0",
         "eslint-plugin-node": "^11.1.0",
