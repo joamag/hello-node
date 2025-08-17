@@ -14,12 +14,12 @@ The project uses [Node-gyp](https://github.com/nodejs/node-gyp), the de facto st
 
 ### Key Features
 
-- **Cross-platform compatibility**: Works seamlessly on Windows, macOS, and Linux
-- **Modern C++ standards**: Utilizes contemporary C++ practices and Node.js N-API
-- **Educational focus**: Extensively commented code for learning purposes
-- **Production-ready structure**: Follows industry best practices for module organization
-- **Comprehensive testing**: Includes unit tests to validate functionality
-- **CI/CD integration**: Automated builds and testing across multiple environments
+* **Cross-platform compatibility**: Works seamlessly on Windows, macOS, and Linux
+* **Modern C++ standards**: Utilizes contemporary C++ practices and Node.js N-API
+* **Educational focus**: Extensively commented code for learning purposes
+* **Production-ready structure**: Follows industry best practices for module organization
+* **Comprehensive testing**: Includes unit tests to validate functionality
+* **CI/CD integration**: Automated builds and testing across multiple environments
 
 ### Technical Architecture
 
